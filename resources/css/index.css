@@ -1,0 +1,199 @@
+body {
+    font-family: 'Josefin Sans', Tahoma, sans-serif;
+    color: black;
+    background-color:rgb(199, 218, 236);
+    margin: 0;
+}
+
+/*Header*/
+header { 
+    top: 0;
+    left: 0;
+    right:0;
+    position: fixed;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#logo {
+    flex: 1;
+    flex-shrink: 3;
+}
+
+#logo img {
+    max-height: 65px;
+    width: auto;
+    padding-left: 5px;
+}
+
+#headertitle {
+    text-align: center;
+    flex: 1;
+    flex-shrink: 2;
+    font-family: "Caveat", "Comic Sans", cursive;
+    font-size: 2vmax;
+}
+
+
+header ul {
+    flex: 1;
+    flex-shrink: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 1.25vmax;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:visited {
+    color: black;
+}
+
+/*Main*/
+main {
+    width: 100%;
+}
+
+article {
+    margin-bottom: 5%;
+}
+
+/*Article 1*/
+#eyecatcher {
+    width: 100%;
+    margin-top: 8%;
+}
+
+#eyecatcher h2 {
+    display: block;
+    text-align: center;
+    margin: 1%;
+    font-size: 1.75vmax;
+}
+
+#eyecatcher #depressed {
+    color:blue;
+    text-transform:uppercase;
+    font-family: "Caveat", "Comic Sans", cursive;
+    font-size: 2.25vmax;
+}
+
+#eyecatcherimgcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#eyecatcherimgcontainer img {
+    width: 10%;
+    height: auto;
+}
+
+/*Article 2*/
+#offer {
+    margin-top: 2vmax;
+}
+
+#offertitle {
+    text-align: center;
+    font-size: 1.75vmax;
+}
+.imgflexcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#offerimg img {
+    width: 250px;
+    height: auto;
+}
+
+.imgflexcontainer figcaption {
+    text-align: center;
+    font-size: 1.5vmax;
+}
+
+.companyname {
+    font-family: "Caveat", "Comic Sans", cursive;
+}
+
+/*Article 3*/
+#employeestitle {
+    font-size: 1.25vmax;
+    text-align:center;
+}
+
+#employeestitle h2 {
+    margin-bottom: 0;
+}
+
+#employeesimg figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#employeesimg img {
+    height: 300px;
+    width: auto;
+    margin-bottom: 0.5vmax;
+}
+
+#employeesimg figcaption {
+    font-size: 18px;
+    text-align:center;
+    width: 200px;
+}
+
+/*Article 4*/
+#contact {
+    width: 100%;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2vmax;
+}
+
+#contact p {
+    font-size: 1.25vmax;
+}
+/*Footer*/
+footer {
+    background-color: rgb(97, 97, 97);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+
+#footerlogo img {
+    max-height: 7vmax;
+    width: auto;
+}
+
+#footercompanyname {
+    color: rgb(255, 255, 255);
+    font-size: 2vmax;
+    font-family: "Caveat", "Comic Sans", cursive;
+    margin-right: 5%;
+}
+
+
+/*Media adjustments necessary for portrait screens*/
